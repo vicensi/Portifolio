@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  h2{
+    padding: 10px;
+    color: rgb(46, 32, 18);
+  
+  }
+  .teste{
+    height: 100vh;
+  }
+
+  form {
+    width: 60%;
+    margin: 0 auto;
+
+    
+  }
+  form label {
+    float: left;
+    width: 20%;
+    margin-bottom: 5px;
+    padding-top: 8px;
+  }
+  form input {
+    float: left;
+    width: 80%;
+    margin-bottom: 5px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #777;
+    outline: 0;
+    margin-right: -18px; /* Remove o espaço a direira gerado pelo padding e pela borda */
+  }
+  form textarea{
+    float: left;
+    width: 80%;
+    margin-bottom: 5px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #777;
+    outline: 0;
+    margin-right: -18px; /* Remove o espaço a direira gerado pelo padding e pela borda */
+  }
+  form input:focus {
+    border-color: #0099ff;
+    box-shadow: 1px 1px 3px #333;
+  }
+  form input:hover {
+    border-color: #0099ff;
+  }
+  input::-moz-focus-inner {
+    border: 0;
+  }
+  #inputtextarea{
+      height: 100px;
+  }
+
+  
+  form input[type=reset], form input[type=submit] {
+    width: 50%;
+    background: linear-gradient(rgb(231, 197, 133), rgb(138, 84, 3));
+    cursor: pointer;
+    border: 1px solid lightgray;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+  form input[type=reset]:active, form input[type=submit]:active {
+    width: 50%;
+    background: linear-gradient(rgb(138, 84, 3),rgb(231, 197, 133));
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .erroValidacao {
+    border-color: red;
+    
+  }
+  
+  .mensagem {
+    min-height: 30px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px gray;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+  }
+  .mensagem .close {
+    float: right;
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+  .sucesso {
+    border-color: #04B431;
+    background: #BCF5A9;
+    display: none;
+  
+  }
+  .erro {
+    border-color: #FE2E2E;
+    background: #F78181;
+    display: none;
+  }
+  
